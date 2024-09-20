@@ -1,0 +1,82 @@
+---
+title: |
+  | Phân tích Điều tra tiếp xúc xã hội
+pretitle: Case Study
+subtitle: Mossong (2008) 10.1371/journal.pmed.0050074
+author: 
+  - name: Phung Khanh Lam
+    id: lampk
+    orcid: 0000-0001-7968-473X
+    email: phungkhanhlam@gmail.com
+    affiliation:
+      - name: Domain Biostatistics & Modelling | Saw Swee Hock School of Public Health | National University of Singapore
+date: today
+format: 
+  revealjs:
+    template-partials:
+      - myslide_template/title-slide.html
+    theme: [myslide_template/css/lampk_2024.scss]
+    progress: true
+    slide-number: c/t
+    chalkboard: true
+    self-contained: false
+    preview-links: auto
+    scrollable: true
+    zoom: true
+    menu: false
+title-slide-attributes:
+  data-background-color: "#002147"
+  data-color: "#ffffff"
+  data-link-color: "#ffffff"
+editor: visual
+---
+
+## Giới thiệu về case study
+
+# Giới thiệu
+
+## Vì sao nghiên cứu này được thực hiện?
+
+* Tần suất tiếp xúc giữa người với người là một yếu tố quan trọng ảnh hưởng đến sự lây truyền của các bệnh truyền nhiễm lây truyền qua tiếp xúc trực tiếp (bao gồm các bệnh lưu hành như lao hay não mô cầu, cũng như các vụ dịch mới nổi như cúm hay SARS). Do đó, đây là một dữ liệu quan trọng giúp đánh giá chính xác hiệu quả của các biện pháp can thiệp nhằm kiểm soát các bệnh lưu hành và ứng phó với các dịch bệnh mới nổi.
+
+* Tuy nhiên:
+    - Hiện có ít nghiên cứu trên thực địa nhằm xác định loại hình tiếp xúc trong một nhóm dân số, giữa các nhóm dân số, và trong các điều kiện xã hội khác nhau.
+    - So với các bệnh lây truyền qua đường quan hệ tình dục, nhìn chung có ít nghiên cứu mô tả tiếp xúc trong các bệnh lây truyền qua giọt bắn từ đường hô hấp hay tiếp xúc gần. Thay vào đó, việc tiếp xúc thường được giả định theo một số mô hình định trước, dựa trên một số ít tham số được ước tính gián tiếp từ các điều tra huyết thanh.
+    - Một số ít nghiên cứu được thực hiện nhằm định lượng trực tiếp các loại hình tiếp xúc này, tuy nhiên đây thường là các nghiên cứu có quy mô nhỏ và không đại diện, và do đó khả năng ứng dụng và khái quát hoá cho các dân số khác còn bỏ ngỏ.
+
+* Vì vậy, nghiên cứu này được thực hiện.
+    - Đây là điều tra cộng đồng đầu tiên ở quy mô lớn, với dữ liệu được thu thập tiến cứu, nhằm mô tả những loại hình tiếp xúc xã hội có liên quan đến dịch tễ học.
+    - Điều tra được thực hiện ở 8 quốc gia khác nhau tại Châu Âu, với cùng phương pháp thu thập dữ liệu qua nhật ký bằng giấy, và bao trùm mọi nhóm tuổi. 
+    
+## Mục tiêu của nghiên cứu
+
+* Đánh giá sự lây truyền của một bệnh mới nổi trong một dân số hoàn toàn cảm nhiễm với cùng mô hình tiếp xúc xã hội được mô tả trong điều tra. 
+
+# Phương pháp
+
+## Thu thập dữ liệu
+
+* Bao gồm các điều tra cắt ngang riêng lẻ do các công ty thương mại hoặc các viện y tế công cộng thực hiện tại 8 quốc gia (Bỉ [BE], Đức [DE], Phần Lan [FI], Anh [GB], Ý [IT], Luxembourg [LU], Hà Lan [NL], Ba Lan [PL]), từ 05/2005 đến 09/2006.   
+
+## Phân tích dữ liệu
+
+# Kết quả
+
+## Mẫu nghiên cứu
+
+## Số lượng tiếp xúc
+
+## Cường độ, địa điểm tiếp xúc
+
+## Kiểu tiếp xúc theo tuổi
+
+## Giả lập giai đoạn ban đầu của một vụ dịch
+
+# Bàn luận
+
+# Bài học
+
+## Cập nhật
+
+* 2024-09-21: bắt đầu viết: hoàn tất dàn ý, viết phần giới thiệu. 
+
