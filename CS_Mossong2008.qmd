@@ -13,6 +13,7 @@ author:
 date: today
 format: 
   revealjs:
+    embed-resources: false
     template-partials:
       - myslide_template/title-slide.html
     theme: [myslide_template/css/lampk_2024.scss]
@@ -37,38 +38,488 @@ editor: visual
 
 ## Vì sao nghiên cứu này được thực hiện?
 
-* Tần suất tiếp xúc giữa người với người là một yếu tố quan trọng ảnh hưởng đến sự lây truyền của các bệnh truyền nhiễm lây truyền qua tiếp xúc trực tiếp (bao gồm các bệnh lưu hành như lao hay não mô cầu, cũng như các vụ dịch mới nổi như cúm hay SARS). Do đó, đây là một dữ liệu quan trọng giúp đánh giá chính xác hiệu quả của các biện pháp can thiệp nhằm kiểm soát các bệnh lưu hành và ứng phó với các dịch bệnh mới nổi.
+-   Tần suất tiếp xúc giữa người với người là một yếu tố quan trọng ảnh hưởng đến sự lây truyền của các bệnh truyền nhiễm lây truyền qua tiếp xúc trực tiếp (bao gồm các bệnh lưu hành như lao hay não mô cầu, cũng như các vụ dịch mới nổi như cúm hay SARS). Do đó, đây là một dữ liệu quan trọng giúp đánh giá chính xác hiệu quả của các biện pháp can thiệp nhằm kiểm soát các bệnh lưu hành và ứng phó với các dịch bệnh mới nổi.
 
-* Tuy nhiên:
-    - Hiện có ít nghiên cứu trên thực địa nhằm xác định loại hình tiếp xúc trong một nhóm dân số, giữa các nhóm dân số, và trong các điều kiện xã hội khác nhau.
-    - So với các bệnh lây truyền qua đường quan hệ tình dục, nhìn chung có ít nghiên cứu mô tả tiếp xúc trong các bệnh lây truyền qua giọt bắn từ đường hô hấp hay tiếp xúc gần. Thay vào đó, việc tiếp xúc thường được giả định theo một số mô hình định trước, dựa trên một số ít tham số được ước tính gián tiếp từ các điều tra huyết thanh.
-    - Một số ít nghiên cứu được thực hiện nhằm định lượng trực tiếp các loại hình tiếp xúc này, tuy nhiên đây thường là các nghiên cứu có quy mô nhỏ và không đại diện, và do đó khả năng ứng dụng và khái quát hoá cho các dân số khác còn bỏ ngỏ.
+-   Tuy nhiên:
 
-* Vì vậy, nghiên cứu này được thực hiện.
-    - Đây là điều tra cộng đồng đầu tiên ở quy mô lớn, với dữ liệu được thu thập tiến cứu, nhằm mô tả những loại hình tiếp xúc xã hội có liên quan đến dịch tễ học.
-    - Điều tra được thực hiện ở 8 quốc gia khác nhau tại Châu Âu, với cùng phương pháp thu thập dữ liệu qua nhật ký bằng giấy, và bao trùm mọi nhóm tuổi. 
-    
+    -   Hiện có ít nghiên cứu trên thực địa nhằm xác định loại hình tiếp xúc trong một nhóm dân số, giữa các nhóm dân số, và trong các điều kiện xã hội khác nhau.
+    -   So với các bệnh lây truyền qua đường quan hệ tình dục, nhìn chung có ít nghiên cứu mô tả tiếp xúc trong các bệnh lây truyền qua giọt bắn từ đường hô hấp hay tiếp xúc gần. Thay vào đó, việc tiếp xúc thường được giả định theo một số mô hình định trước, dựa trên một số ít tham số được ước tính gián tiếp từ các điều tra huyết thanh.
+    -   Một số ít nghiên cứu được thực hiện nhằm định lượng trực tiếp các loại hình tiếp xúc này, tuy nhiên đây thường là các nghiên cứu có quy mô nhỏ và không đại diện, và do đó khả năng ứng dụng và khái quát hoá cho các dân số khác còn bỏ ngỏ.
+
+-   Vì vậy, nghiên cứu này được thực hiện.
+
+    -   Đây là điều tra cộng đồng đầu tiên ở quy mô lớn, với dữ liệu được thu thập tiến cứu, nhằm mô tả những loại hình tiếp xúc xã hội có liên quan đến dịch tễ học.
+    -   Điều tra được thực hiện ở 8 quốc gia khác nhau tại Châu Âu, với cùng phương pháp thu thập dữ liệu qua nhật ký bằng giấy, và bao trùm mọi nhóm tuổi.
+
 ## Mục tiêu của nghiên cứu
 
-* Đánh giá sự lây truyền của một bệnh mới nổi trong một dân số hoàn toàn cảm nhiễm với cùng mô hình tiếp xúc xã hội được mô tả trong điều tra. 
+-   Đánh giá sự lây truyền của một bệnh mới nổi trong một dân số hoàn toàn cảm nhiễm với cùng mô hình tiếp xúc xã hội được mô tả trong điều tra.
 
 # Phương pháp
 
 ## Thu thập dữ liệu
 
-* Bao gồm các điều tra cắt ngang riêng lẻ do các công ty thương mại hoặc các viện y tế công cộng thực hiện tại 8 quốc gia (Bỉ [BE], Đức [DE], Phần Lan [FI], Anh [GB], Ý [IT], Luxembourg [LU], Hà Lan [NL], Ba Lan [PL]), từ 05/2005 đến 09/2006.   
+-   Bao gồm các điều tra cắt ngang riêng lẻ do các công ty thương mại hoặc các viện y tế công cộng thực hiện tại 8 quốc gia (Bỉ \[BE\], Đức \[DE\], Phần Lan \[FI\], Anh \[GB\], Ý \[IT\], Luxembourg \[LU\], Hà Lan \[NL\], Ba Lan \[PL\]), từ 05/2005 đến 09/2006.
 
 ## Phân tích dữ liệu
 
 # Kết quả
 
+## Chuẩn bị
+
+```{r}
+#| label: library
+#| echo: true
+#| code-fold: true
+#| code-summary: "Gọi các thư viện R"
+
+library(readxl)      ## để đọc dữ liệu từ file excel
+library(tidyverse)   ## để thao tác trên dữ liệu
+library(reshape2)    ## để chuyển dạng dữ liệu
+library(ggplot2)     ## để vẽ biểu đồ
+library(gt)          ## để tạo bảng kết quả
+library(gtsummary)   ## để tạo bảng kết quả
+library(survival)    ## để phân tích sống còn
+library(gamlss)      ## để phân tích bằng mô hình GAMLSS
+library(gamlss.cens) ## để phân tích bằng mô hình GAMLSS kết hợp với phân tích sống còn
+library(mgcv)        ## để phân tích bằng mô hình GAM
+library(socialmixr)  ## để phân tích điều tra tiếp xúc
+```
+
+```{r}
+#| label: function
+#| echo: true
+#| code-fold: true
+#| code-summary: "Một số lệnh bổ sung"
+
+
+mynum <- function(x, digits = 2) {
+  formatC(round(x, digits = digits), digits = digits, format = "f")
+}
+```
+
+```{r}
+#| label: mossong_data
+#| echo: true
+#| code-fold: true
+#| code-summary: "Chuẩn bị dữ liệu"
+
+# lưu đường dẫn đến các file dữ liệu
+data_path <- file.path("..", "..", "Database", "Others", "ContactSurveys", "2008_Mossong_POLYMOD")
+
+# đọc dữ liệu
+mossong_contact <- read.csv(file = file.path(data_path,  "2008_Mossong_POLYMOD_contact_common.csv"), header = TRUE)
+mossong_hh <- read.csv(file = file.path(data_path,  "2008_Mossong_POLYMOD_hh_common.csv"), header = TRUE)
+mossong_hh_ex <- read.csv(file = file.path(data_path,  "2008_Mossong_POLYMOD_hh_extra.csv"), header = TRUE)
+mossong_par <- read.csv(file = file.path(data_path,  "2008_Mossong_POLYMOD_participant_common.csv"), header = TRUE)
+mossong_par_ex <- read.csv(file = file.path(data_path,  "2008_Mossong_POLYMOD_participant_extra.csv"), header = TRUE)
+mossong_par_sday <- read.csv(file = file.path(data_path,  "2008_Mossong_POLYMOD_sday.csv"), header = TRUE)
+
+mossong_weight <- read_excel(path = file.path(data_path, "2008_Mossong_POLYMOD_weight.xlsx"), sheet = "weight",
+                             col_types = c(rep("text", 3), rep("numeric", 6))) %>%
+  pivot_longer(cols = 4:9,
+               names_to = "hh_size",
+               values_to = "value") %>%
+  mutate(
+    part_age_group = factor(case_when(
+      age_group %in% c("0-4") ~ "0-4",
+      age_group %in% c("5-9") ~ "5-9",
+      age_group %in% c("10-14") ~ "10-14",
+      age_group %in% c("15-19") ~ "15-19",
+      age_group %in% c("20-24", "25-29") ~ "20-29",
+      age_group %in% c("30-34", "35-39") ~ "30-39",
+      age_group %in% c("40-44", "45-49") ~ "40-49",
+      age_group %in% c("50-54", "55-59") ~ "50-59",
+      age_group %in% c("60-64", "65-69") ~ "60-69",
+      age_group %in% c("70 +") ~ "70+",
+      age_group %in% c("All ages") ~ "Missing",
+      .default = NA
+    ),
+    levels = c("0-4", "5-9", "10-14", "15-19", "20-29", "30-39", "40-49", "50-59", "60-69", "70+", "Missing")),
+    hh_size_group = factor(case_when(
+      hh_size == "hh_1" ~ "1",
+      hh_size == "hh_2" ~ "2",
+      hh_size == "hh_3" ~ "3",
+      hh_size == "hh_4" ~ "4",
+      hh_size == "hh_5" ~ "5+",
+      hh_size == "hh_all" ~ "Missing",
+      .default = NA
+    ),
+    levels = c("1", "2", "3", "4", "5+", "Missing")),
+    country = factor(country,
+                          levels = c("BE", "DE", "FI", "GB", "IT", "LU", "NL", "PL"))
+  ) %>%
+  group_by(country, part_age_group, hh_size_group) %>%
+  summarise(
+    census = sum(value[type == "Census"]),
+    sample = sum(value[type == "Sample"]),
+    weight = ifelse(sample == 0, NA, census/sample),
+    .groups = "drop"
+  )
+
+# dữ liệu tiếp xúc: tạo biến số tóm tắt và kết hợp với các dữ liệu khác cho phân tích
+mossong_contact_sum <- merge(merge(merge(merge(
+  mossong_contact %>%
+  group_by(part_id) %>%
+  summarise(ncont = n(),
+            .groups = "drop") %>%
+    mutate(censor = ifelse(ncont >= 29, 1, 0)),
+  mossong_par %>%
+    mutate(part_age_group = factor(case_when(
+      is.na(part_age) ~ "Missing",
+      part_age %in% c(0:4) ~ "0-4",
+      part_age %in% c(5:9) ~ "5-9",
+      part_age %in% c(10:14) ~ "10-14",
+      part_age %in% c(15:19) ~ "15-19",
+      part_age %in% c(20:29) ~ "20-29",
+      part_age %in% c(30:39) ~ "30-39",
+      part_age %in% c(40:49) ~ "40-49",
+      part_age %in% c(50:59) ~ "50-59",
+      part_age %in% c(60:69) ~ "60-69",
+      part_age > 69 ~ "70+",
+      .default = NA
+    ), 
+    levels = c("0-4", "5-9", "10-14", "15-19", "20-29", "30-39", "40-49", "50-59", "60-69", "70+", "Missing")),
+    part_gender = factor(case_when(
+      part_gender == "F" ~ "Female",
+      part_gender == "M" ~ "Male",
+      .default = "Missing"
+    ), 
+    levels = c("Female", "Male", "Missing"))
+    ),
+  by = "part_id", all = TRUE
+),
+mossong_hh %>%
+  mutate(country = factor(country,
+                          levels = c("BE", "DE", "FI", "GB", "IT", "LU", "NL", "PL")),
+         hh_size_group = factor(case_when(
+           hh_size == 1 ~ "1",
+           hh_size == 2 ~ "2",
+           hh_size == 3 ~ "3",
+           hh_size == 4 ~ "4",
+           hh_size >= 5 ~ "5+",
+           .default = NA
+         ),
+         levels = c("1", "2", "3", "4", "5+")),
+         hh_size_group2 = factor(case_when(
+           hh_size == 1 ~ "1",
+           hh_size == 2 ~ "2",
+           hh_size == 3 ~ "3",
+           hh_size == 4 ~ "4",
+           hh_size == 5 ~ "5",
+           hh_size >= 6 ~ "6+",
+           .default = NA
+         ),
+         levels = c("1", "2", "3", "4", "5", "6+"))
+         ),
+by = "hh_id", all.x = TRUE
+),
+mossong_par_sday %>%
+  select(part_id, dayofweek) %>%
+  mutate(dayweek = factor(case_when(
+    dayofweek == 0 ~ "Sunday",
+    dayofweek == 1 ~ "Monday",
+    dayofweek == 2 ~ "Tuesday",
+    dayofweek == 3 ~ "Wednesday",
+    dayofweek == 4 ~ "Thursday",
+    dayofweek == 5 ~ "Friday",
+    dayofweek == 6 ~ "Saturday",
+    .default = "Missing"
+  ),
+  levels = c("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Missing"))),
+by = "part_id", all.x = TRUE),
+mossong_weight %>%
+  select(country, part_age_group, hh_size_group, weight),
+by = c("country", "part_age_group", "hh_size_group"), all.x = TRUE
+)
+
+## chọn biến số quan trọng cho dữ liệu phân tích
+mossong_contact_sum2 <- mossong_contact_sum %>%
+  select(ncont, censor, part_age_group, part_gender, hh_size_group2, dayweek, country, weight)
+
+# to estimate contact matrix
+mossong_contact2 <- merge(
+  mossong_contact,
+  mossong_contact_sum |> 
+    select(part_id, part_age, part_age_group, part_gender, weight),
+  by = "part_id"
+) |> 
+  mutate(cnt_age = ifelse(!is.na(cnt_age_exact), cnt_age_exact,
+                          ifelse(!is.na(cnt_age_est_min), cnt_age_est_min, cnt_age_est_max))) |> 
+  select(part_id, cont_id, part_age, part_age_group, cnt_age, cnt_age_exact, cnt_age_est_min, cnt_age_est_max, weight,
+         part_gender, cnt_gender, 
+         cnt_home, cnt_work, cnt_school, cnt_transport, cnt_leisure, cnt_otherplace,
+         frequency_multi, phys_contact, duration_multi)
+
+#range(mossong_contact2$part_age, na.rm = TRUE) # 0-90
+
+mossong_contact3 <- expand.grid(part_age = 0:90,
+                                cnt_age  = 0:90) |> 
+  group_by(part_age, cnt_age) |> 
+  mutate(
+    part_age_cat = factor(part_age),
+    cnt_age_cat = factor(cnt_age),
+    weight = mean(mossong_contact2$weight[!is.na(mossong_contact2$part_age) & mossong_contact2$part_age == part_age]),
+    wi = length(unique(mossong_contact2$part_id[!is.na(mossong_contact2$part_age) & mossong_contact2$part_age == part_age])),
+    wj = length(unique(mossong_contact2$part_id[!is.na(mossong_contact2$part_age) & mossong_contact2$part_age == cnt_age])),
+    yij = sum((!is.na(mossong_contact2$part_age)) & (mossong_contact2$part_age == part_age) & (!is.na(mossong_contact2$cnt_age)) & (mossong_contact2$cnt_age == cnt_age)),
+    yji = sum((!is.na(mossong_contact2$part_age)) & (mossong_contact2$part_age == cnt_age) & (!is.na(mossong_contact2$cnt_age)) & (mossong_contact2$cnt_age == part_age)),
+    y = (yij + yji)/2
+    ) |> 
+  ungroup()
+
+#subset(mossong_contact3, part_age %in% c(0, 1) & cnt_age %in% c(0, 1))
+
+mossong_survey <- socialmixr::survey(participants = mossong_par,
+                                     contacts = mossong_contact)
+```
+
 ## Mẫu nghiên cứu
+
+```{r}
+#| label: tbl-desc_general
+#| tbl-cap: "Đặc điểm mẫu nghiên cứu (Table 1)"
+#| echo: true
+#| code-fold: true
+#| code-summary: "Mô tả mẫu nghiên cứu"
+
+mossong_contact_sum2 %>%
+  tbl_summary(include = c(part_age_group, part_gender, hh_size_group2, dayweek, country),
+              statistic = list(everything() ~ "{n}"),
+              label = list(part_age_group ~ "Age of participant, y", 
+                           part_gender ~ "Sex of participant", 
+                           hh_size_group2 ~ "Household size", 
+                           dayweek ~ "Day of the week", 
+                           country ~ "Country")) %>%
+  as_gt() %>%
+  gt::tab_options(table.font.size = 15,
+                  column_labels.font.weight = "bold",
+                  table.background.color = "#E5E8EC",
+                  table.font.color = "#002147",
+                  column_labels.border.top.color = "#002147",
+                  column_labels.border.bottom.color = "#002147",
+                  table_body.hlines.color = "#E5E8EC",
+                  table_body.border.bottom.color = "#002147")
+```
 
 ## Số lượng tiếp xúc
 
+```{r}
+#| label: mossong_degdis_est
+#| echo: true
+#| code-fold: true
+#| code-summary: "Ước lượng số lượng tiếp xúc theo từng đặc điểm"
+
+## create the NBIrc family
+gen.cens(family = NBI, type = "right")
+
+## fit gamlss
+mossong_ncont_fit <- gamlss(
+  formula = Surv(ncont, 1 - censor) ~ part_age_group + part_gender + hh_size_group2 + dayweek + country, 
+  family = NBIrc, 
+  method = RS(2000), 
+  weights = weight, 
+  data = na.omit(mossong_contact_sum2))
+
+## result
+a <- summary(mossong_ncont_fit)
+
+as.data.frame(a[, c(1, 2)]) %>%
+  filter(row_number() > 1 & row_number() <= (n() - 1)) %>%
+  mutate(RR = `Estimate`,
+            CI_lo = `Estimate` - 1.96 * `Std. Error`,
+            CI_hi = `Estimate` + 1.96 * `Std. Error`) %>%
+  transmute(Est = paste0(mynum(exp(RR)), " (", mynum(exp(CI_lo)), "-", mynum(exp(CI_hi)), ")"))
+
+### dispersion parameter: 
+
+as.data.frame(a[, c(1, 2)]) %>%
+  filter(row_number() == n()) %>%
+  mutate(RR = `Estimate`,
+            CI_lo = `Estimate` - 1.96 * `Std. Error`,
+            CI_hi = `Estimate` + 1.96 * `Std. Error`) %>%
+  transmute(Est = paste0(mynum(exp(RR)), " (", mynum(exp(CI_lo)), "-", mynum(exp(CI_hi)), ")"))
+```
+
+```{r}
+#| label: mossong_degdis
+#| echo: true
+#| code-fold: true
+#| code-summary: "Bảng tổng hợp ước lượng số lượng tiếp xúc theo từng đặc điểm"
+
+tab1 <- mossong_contact_sum2 %>%
+  tbl_summary(include = c(part_age_group, part_gender, hh_size_group2, dayweek, country),
+              statistic = list(everything() ~ "{n}"))
+
+tab2 <- mossong_contact_sum2 %>%
+  tbl_continuous(variable = ncont,
+                 include = c(part_age_group, part_gender, hh_size_group2, dayweek, country),
+                 statistic = list(everything() ~ "{median} ({p25}-{p75})"),
+                 digits = list(everything() ~ 2)
+                 ) 
+
+tab3 <- mossong_contact_sum2 %>%
+  tbl_continuous(variable = ncont,
+                 include = c(part_age_group, part_gender, hh_size_group2, dayweek, country),
+                 statistic = list(everything() ~ "{mean} ({sd})"),
+                 digits = list(everything() ~ 2)
+                 ) 
+tab5 <- tab1
+tab5$table_body <- cbind(tab5$table_body, 
+                         stat_1 = tab2$table_body$stat_0,
+                         stat_2 = tab3$table_body$stat_0)
+tab5$table_styling$header <- rbind(tab5$table_styling$header,
+                                   data.frame(
+                                     column = "stat_1", 
+                                     hide = FALSE, 
+                                     align = "center", 
+                                     interpret_label = "gt::md", 
+                                     label = "Median (IQR) of Number of Reported Contacts", 
+                                     interpret_spanning_header = "gt::md", 
+                                     spanning_header = NA, 
+                                     modify_stat_N = 7290, 
+                                     modify_stat_n = 7290, 
+                                     modify_stat_p = 1, 
+                                     modify_stat_level = "Overall"),
+                                   data.frame(
+                                     column = "stat_2", 
+                                     hide = FALSE, 
+                                     align = "center", 
+                                     interpret_label = "gt::md", 
+                                     label = "Mean (Standard Deviation) of Number of Reported Contacts", 
+                                     interpret_spanning_header = "gt::md", 
+                                     spanning_header = NA, 
+                                     modify_stat_N = 7290, 
+                                     modify_stat_n = 7290, 
+                                     modify_stat_p = 1, 
+                                     modify_stat_level = "Overall"))
+
+tab5
+```
+
 ## Cường độ, địa điểm tiếp xúc
 
-## Kiểu tiếp xúc theo tuổi
+## Ma trận tần suất tiếp xúc theo tuổi
+
+```{r}
+#| label: mossong_contact_matrix_bivariate_smoothing
+#| echo: true
+#| code-fold: true
+#| code-summary: "Ước lượng ma trận tần suất tiếp xúc theo tuổi bằng bivariate smoothing"
+
+# bivariate smoothing
+mossong_contact4 <- na.omit(mossong_contact3)
+mossong_cij_fit2 <- gam(formula = y ~ te(part_age, cnt_age, bs = "tp", k = 11, fx = FALSE),
+                        family = nb(theta = NULL, link = "log"), optimizer = "outer",
+                        weights = weight,
+                        data = mossong_contact4)
+mossong_contact3$y_hat <- predict.gam(object = mossong_cij_fit2, newdata = mossong_contact3)
+mossong_contact3$y_hat2 <- pmax(mossong_contact3$y_hat, 0)
+mossong_contact3$cij <- mossong_contact3$y_hat2/(mossong_contact3$wi * mossong_contact3$wj)
+```
+
+```{r}
+# piecewise constant surface: Wallinga (2006)
+# write(c("a", "b", "r", "k1", "k2", "deviance", "failure", "convergence"), 
+#       outfile, ncol = 8, append = F)
+# 
+# for (a in 1:nbins) { 
+#   for (b in a:nbins) { 
+#     contproc <- function(li, ki) { 
+#       rij <- kij <- matrix(NA, nrow = nbins, ncol = nbins) 
+#       rij[a, b] <- li*10^(-3) 
+#       kij[a, b] <- ki[1] 
+#       rij[b, a] <- li*10^(-3) 
+#       kij[b, a] <- ki[2] 
+#       mij <- t(t(rij) * c(wj.int))/365 
+#       ll.i<- rep(NA, dim(mij)[2]) 
+#       ll <- rep(NA, dim(part)[1]) 
+#       nan.i <- rep(NA, dim(mij)[2]) 
+#       nan <- rep(NA, dim(part)[1]) 
+#       for (i in 1:dim(part)[1]) { 
+#         cj <- hist(contacts$cnt_age_mean[contacts$local_id == part$local_id[i]], breaks = c(int.breaks, 100), right = FALSE, plot = F)$counts[-length(int.breaks)] 
+#         for (j in 1:length(cj)){ 
+#           ll.i[j] <- ifelse(!is.na(mij[age.resp.int[i], j]), 
+#                             log(dnbinom(cj[j], size = kij[age.resp.int[i], j], mu = mij[age.resp.int[i], j]) + 1e-6),
+#                             0) 
+#           nan.i[j] <- is.nan(ll.i[j]) 
+#         }  
+#         ll[i] <- diary.weight[i] * sum(ll.i) 
+#         nan[i] <- sum(nan.i) 
+#       }  
+#       sum(nan) 
+#       return(c(-2 * sum(ll), sum(nan))) 
+#     }  
+#     
+#     contproc2 <- function(p) { 
+#       deviance <- contproc(p[1], p[2:3])[1] 
+#       return(deviance)
+#     } 
+#     
+#     contproc3 <- function(p) { 
+#       failure <- contproc(p[1], p[2:3])[2] 
+#       return(failure)
+#     }
+#     
+#   # optimization 
+#   result <- nlm(contproc2, c(0.05, 1, 0.5), print.level = 0)
+#   
+#   r <- result$estimate[1] 
+#   k <- result$estimate[2:3] 
+#   dev <- result$minimum 
+#   result = cbind(a, b, r, k[1], k[2], dev, contproc3(c(r, k)), result$code) 
+#   print(result) 
+#   write(t(result), outfile, ncol = 8, append = T) 
+#   } 
+# }  
+# 
+# # Organising the results and storing them in a matrix 
+# tab <- read.table(outfile, header = T, sep = " ") 
+# cij <- matrix(NA, nrow = nbins, ncol = nbins) 
+# for (a in 1:nbins) { 
+#   for (b in 1:nbins){ 
+#     cij[a, b] <- (tab$r[(tab$a == a & tab$b == b) | (tab$a == b & tab$b == a)]) * 10^(-3)/365 
+#   } 
+# }
+```
+
+```{r}
+#| label: fig_mossong_contact_matrix_bivariate_smoothing
+#| echo: true
+#| code-fold: true
+#| code-summary: "Hình mô tả ma trận tần suất tiếp xúc theo tuổi"
+
+ggplot(data = mossong_contact3, aes(x = part_age, y = cnt_age, fill = cij)) +
+  geom_tile() +
+  scale_fill_distiller(palette = "RdPu", direction = 1) +
+  theme_bw()
+```
+
+```{r}
+#| label: mossong_contact_matrix_socialmixr
+#| echo: true
+#| code-fold: true
+#| code-summary: "Ước lượng ma trận tần suất tiếp xúc theo tuổi bằng phương pháp trong socialmixr"
+
+# socialmixr
+cntmax <- contact_matrix(survey = mossong_survey, 
+                         symmetric = FALSE)
+```
+
+```{r}
+#| label: fig_mossong_contact_matrix_socialmixr
+#| echo: true
+#| code-fold: true
+#| code-summary: "Hình mô tả ma trận tần suất tiếp xúc theo tuổi"
+#| 
+cntmax2 <- melt(cntmax$matrix, varnames = c("age.group", "age.group.contact"), value.name = "contacts")
+
+ggplot(cntmax2, aes(x = age.group, y = age.group.contact, fill = contacts)) +
+  geom_tile() +
+  scale_fill_distiller(palette = "RdPu", direction = 1) +
+  theme(legend.position = "bottom")
+  
+```
 
 ## Giả lập giai đoạn ban đầu của một vụ dịch
 
@@ -78,5 +529,4 @@ editor: visual
 
 ## Cập nhật
 
-* 2024-09-21: bắt đầu viết: hoàn tất dàn ý, viết phần giới thiệu. 
-
+-   2024-09-21: bắt đầu viết: hoàn tất dàn ý, viết phần giới thiệu.
